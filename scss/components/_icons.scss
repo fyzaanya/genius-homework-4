@@ -1,12 +1,11 @@
 .social {
     display: none;
 
-    @media screen and (min-width: $bp-desktop) {
-        flex-grow: 1;
+    @media screen and (min-width: $bp-tablet) {
         display: flex;
         align-items: center;
         gap: 32px;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     &__icon {
@@ -42,6 +41,13 @@
     &__arrow {
         transform: rotate(180deg);
     }
+
+    &.next, &.prev {
+        transform: scale(0.8);
+    }
+        @media screen and (min-width: $bp-desktop) {
+            transform: scale(1);
+        }
 }
 
 .footer-logo {

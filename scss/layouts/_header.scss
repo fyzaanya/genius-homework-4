@@ -1,13 +1,8 @@
 .header {
-    padding: 0 20px;
-    background-color: transparent;
-    backdrop-filter: none;
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
 
-    @media screen and (min-width: $bp-desktop) {
+    @media screen and (min-width: $bp-tablet) {
         padding: 0;
         background-color: var(--header-background-color);
         backdrop-filter: blur(5px);
@@ -24,26 +19,33 @@
         }
     }
 
+    &__logo {
+        flex-shrink: 0;
+    }
+
     &__nav {
         width: 1239px;
         height: 42px;
-        flex-grow: 1;
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        gap: 240px;
+        gap: 24px;
     }
 
     &__menu {
         display: none;
 
-        @media screen and (min-width: $bp-desktop) {
+        @media screen and (min-width: $bp-tablet) {
             display: flex;
-            gap: 56px;
-            flex-grow: 1;
+            gap: 30px;
             font-size: 18px;
             font-family: Roboto;
             justify-content: space-between;
             margin: 0;
+        }
+
+        @media screen and (min-width: $bp-desktop) {
+            gap: 56px;
         }
     }
 
@@ -54,7 +56,7 @@
         height: 24px;
         border: none;
 
-        @media screen and (min-width: $bp-desktop) {
+        @media screen and (min-width: $bp-tablet) {
             display: none;
         }
     }

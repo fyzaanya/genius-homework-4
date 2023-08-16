@@ -10,7 +10,13 @@ const swiper = new Swiper('.swiper-container', {
     768: {
       slidesPerView: 2,
     },
+    1048: {
+      slidesPerView: 3,
+    },
     1280: {
+      slidesPerView: 3,
+    },
+    1920: {
       slidesPerView: 3,
     },
   },
@@ -25,4 +31,5 @@ const swiper = new Swiper('.swiper-container', {
     nextEl: '.procedure-icon.next',
     prevEl: '.procedure-icon.prev',
   },
+  watchOverflow: false,
 });

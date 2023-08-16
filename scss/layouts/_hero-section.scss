@@ -9,11 +9,7 @@
     margin: 0 auto;
 
     @media screen and (min-width: $bp-tablet) {
-        padding: 100px 0 127px 100px;
-    }
-
-    @media screen and (min-width: $bp-desktop) {
-        padding: 123px 0 127px 140px;
+        padding: 123px 0 127px 106px;
     }
 
     &__container {

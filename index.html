@@ -19,7 +19,7 @@
       <div class="container">
         <div class="header__container">
           <nav class="header__nav">
-            <a href="/">
+            <a class="header__logo" href="/">
               <img src="./images/logo.svg" alt="Логотип косметологічної клініки" />
             </a>
             <ul class="header__menu">
@@ -51,7 +51,7 @@
               <use href="./images/icons.svg#icon-menu"></use>
             </svg>
           </button>
-          <div class="mobile-menu is-open">
+          <div class="mobile-menu">
             <button class="mobile-menu__close menu-close" type="button">
               <svg width="16" height="16">
                 <use href="./images/icons.svg#icon-close"></use>
@@ -61,10 +61,10 @@
               <img src="./images/logo.svg" alt="Логотип косметологічної клініки" />
             </a>
             <ul class="mobile-menu__menu">
-              <li><a class="mobile-menu__link" href="#about-us">Про нас</a></li>
-              <li><a class="mobile-menu__link" href="#why-us">Чому ми</a></li>
-              <li><a class="mobile-menu__link" href="#our-procedures">Наші процедури</a></li>
-              <li><a class="mobile-menu__link" href="#contacts">Контакти</a></li>
+              <li><a class="mobile-menu__link" id="mobile-link-1" href="#about-us">Про нас</a></li>
+              <li><a class="mobile-menu__link" id="mobile-link-2" href="#why-us">Чому ми</a></li>
+              <li><a class="mobile-menu__link" id="mobile-link-3" href="#our-procedures">Наші процедури</a></li>
+              <li><a class="mobile-menu__link" id="mobile-link-4" href="#contacts">Контакти</a></li>
             </ul>
             <div class="mobile-menu__social">
               <a href="tel:+380960000007">
@@ -192,41 +192,33 @@
               <div class="our-procedures-section__container swiper-container">
                 <ul class="our-procedures-section__list swiper-wrapper">
                 <li class="swiper-slide">
-                  <article class="procedures-card">
-                    <img class="procedures-card__image" src="./images/procedure-mask.jpg" alt="Процедура нанесення маски на обличчя" />
-                      <h3 class="procedures-card__title">Маски<br />для обличчя</h3>
+                  <article class="procedures-card-1">
+                      <h3 class="procedures-card-1__title">Маски<br />для обличчя</h3>
                   </article>
                 </li>
                 <li class="swiper-slide">
-                  <article class="procedures-card">
-                    <img class="procedures-card__image" src="./images/procedure-injection.jpg"
-                      alt="Процедура вкалування ін'єкцій для обличчя" />
-                      <h3 class="procedures-card__title">Ін'єкції<br />для обличчя</h3>
+                  <article class="procedures-card-2">
+                      <h3 class="procedures-card-2__title">Ін'єкції<br />для обличчя</h3>
                   </article>
                 </li>
                 <li class="swiper-slide">
-                  <article class="procedures-card">
-                    <img class="procedures-card__image" src="./images/procedure-clean.jpg" alt="Процедура очищення обличчя" />
-                      <h3 class="procedures-card__title">Очищення обличчя</h3>
+                  <article class="procedures-card-3">
+                      <h3 class="procedures-card-3__title">Очищення<br> обличчя</h3>
                   </article>
                 </li>
                 <li class="swiper-slide">
-                  <article class="procedures-card">
-                    <img class="procedures-card__image" src="./images/procedure-mask.jpg" alt="Процедура нанесення маски на обличчя" />
-                    <h3 class="procedures-card__title">Маски<br />для обличчя</h3>
+                  <article class="procedures-card-1">
+                    <h3 class="procedures-card-1__title">Маски<br />для обличчя</h3>
                   </article>
                 </li>
                 <li class="swiper-slide">
-                  <article class="procedures-card">
-                    <img class="procedures-card__image" src="./images/procedure-injection.jpg"
-                      alt="Процедура вкалування ін'єкцій для обличчя" />
-                    <h3 class="procedures-card__title">Ін'єкції<br />для обличчя</h3>
+                  <article class="procedures-card-2">
+                    <h3 class="procedures-card-2__title">Ін'єкції<br />для обличчя</h3>
                   </article>
                 </li>
                 <li class="swiper-slide">
-                  <article class="procedures-card">
-                    <img class="procedures-card__image" src="./images/procedure-clean.jpg" alt="Процедура очищення обличчя" />
-                    <h3 class="procedures-card__title">Очищення обличчя</h3>
+                  <article class="procedures-card-3">
+                    <h3 class="procedures-card-3__title">Очищення<br> обличчя</h3>
                   </article>
                 </li>
                 </ul>
